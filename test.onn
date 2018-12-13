@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- The Net 00001.0000.0000 -->
+<object class="CNN" id="cnn">
+<object class="NetParameter" id="NetParameter">
+<child cnn_topology="net_topology">
+<property name="number_of_input_channels">1</property>
+<property name="width_of_input_map">28</property>
+<property name="height_of_input_map">28</property>
+<property name="number_of_convolutional_layers">3</property>
+<property name="number_of_filter_kernels_pro_input_channel">2</property>
+<property name="number_of_filter_kernels_pro_pooling_map">2</property>
+<property name="width_of_filter_kernels_for_the_first_convolutional_layer">3</property>
+<property name="width_of_filter_kernels_for_the_other_convolutional_layer">3</property>
+<property name="width_of_pooling_window">2</property>
+<property name="kind_of_pooling">15</property>
+<property name="number_of_hidden_layers">2</property>
+<property name="number_of_neurons_in_hidden_layers">11</property>
+<property name="number_of_classes">10</property>
+<property name="kind_of_classification">19</property>
+</child>
+<child cnn_training_parameter="cnn_training_parameter">
+<property name="number_of_epochs">3</property>
+<property name="batch_size">1</property>
+<property name="number_of_training_images">60000</property>
+<property name="number_of_test_images">10000</property>
+<property name="path_to_training_images">0</property>
+<property name="path_to_test_images">0</property>
+<property name="learning_rate">-400107883</property>
+</child>
+</object>
+<object class="cnn_weights" id="cnn_weights">
+<child filter_kernel_weights="filter_kernel_weights">
+<matrix class="vector" id="filter_kernel_1_for_the_1_convolutional_layer">
+<vector>
+<double>0,680232</double>
+<double>-0,211378</double>
+<double>0,566055</double>
+</vector>
+<vector>
+<double>0,596738</double>
+<double>0,823154</double>
+<double>-0,605036</double>
+</vector>
+<vector>
+<double>-0,329695</double>
+<double>0,536320</double>
+<double>-0,444588</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_1_convolutional_layer">
+<vector>
+<double>0,107726</double>
+<double>-0,045422</double>
+<double>0,257524</double>
+</vector>
+<vector>
+<double>-0,270650</double>
+<double>0,026579</double>
+<double>0,904234</double>
+</vector>
+<vector>
+<double>0,832158</double>
+<double>0,271192</double>
+<double>0,434364</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_1_for_the_2_convolutional_layer">
+<vector>
+<double>-0,716795</double>
+<double>0,213938</double>
+<double>-0,967399</double>
+</vector>
+<vector>
+<double>-0,514226</double>
+<double>-0,725537</double>
+<double>0,608354</double>
+</vector>
+<vector>
+<double>-0,686642</double>
+<double>-0,198111</double>
+<double>-0,740419</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_2_convolutional_layer">
+<vector>
+<double>-0,782386</double>
+<double>0,997848</double>
+<double>-0,563489</double>
+</vector>
+<vector>
+<double>0,025863</double>
+<double>0,678222</double>
+<double>0,225277</double>
+</vector>
+<vector>
+<double>-0,407943</double>
+<double>0,275104</double>
+<double>0,048571</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_3_for_the_2_convolutional_layer">
+<vector>
+<double>-0,012869</double>
+<double>0,945550</double>
+<double>-0,415001</double>
+</vector>
+<vector>
+<double>0,542715</double>
+<double>0,053475</double>
+<double>0,539828</double>
+</vector>
+<vector>
+<double>-0,199574</double>
+<double>0,783059</double>
+<double>-0,433399</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_4_for_the_2_convolutional_layer">
+<vector>
+<double>-0,295097</double>
+<double>0,615444</double>
+<double>0,838039</double>
+</vector>
+<vector>
+<double>-0,860489</double>
+<double>0,898653</double>
+<double>0,051991</double>
+</vector>
+<vector>
+<double>-0,827902</double>
+<double>-0,615575</double>
+<double>0,326441</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_1_for_the_3_convolutional_layer">
+<vector>
+<double>0,780465</double>
+<double>-0,302214</double>
+<double>-0,871657</double>
+</vector>
+<vector>
+<double>-0,959954</double>
+<double>-0,084597</double>
+<double>-0,873808</double>
+</vector>
+<vector>
+<double>-0,523440</double>
+<double>0,941268</double>
+<double>0,804416</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_3_convolutional_layer">
+<vector>
+<double>0,701840</double>
+<double>-0,466668</double>
+<double>0,079521</double>
+</vector>
+<vector>
+<double>-0,249586</double>
+<double>0,520497</double>
+<double>0,025071</double>
+</vector>
+<vector>
+<double>0,335448</double>
+<double>0,063213</double>
+<double>-0,921439</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_3_for_the_3_convolutional_layer">
+<vector>
+<double>-0,124725</double>
+<double>0,863670</double>
+<double>0,861620</double>
+</vector>
+<vector>
+<double>0,441905</double>
+<double>-0,431413</double>
+<double>0,477069</double>
+</vector>
+<vector>
+<double>0,279958</double>
+<double>-0,291903</double>
+<double>0,375723</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_4_for_the_3_convolutional_layer">
+<vector>
+<double>-0,668052</double>
+<double>-0,119791</double>
+<double>0,760150</double>
+</vector>
+<vector>
+<double>0,658402</double>
+<double>-0,339326</double>
+<double>-0,542064</double>
+</vector>
+<vector>
+<double>0,786745</double>
+<double>-0,299280</double>
+<double>0,373340</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_5_for_the_3_convolutional_layer">
+<vector>
+<double>0,912936</double>
+<double>0,177280</double>
+<double>0,314608</double>
+</vector>
+<vector>
+<double>0,717353</double>
+<double>-0,120880</double>
+<double>0,847940</double>
+</vector>
+<vector>
+<double>-0,203127</double>
+<double>0,629534</double>
+<double>0,368437</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_6_for_the_3_convolutional_layer">
+<vector>
+<double>0,821944</double>
+<double>-0,035019</double>
+<double>-0,568350</double>
+</vector>
+<vector>
+<double>0,900505</double>
+<double>0,840256</double>
+<double>-0,704680</double>
+</vector>
+<vector>
+<double>0,762124</double>
+<double>0,282161</double>
+<double>-0,136093</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_7_for_the_3_convolutional_layer">
+<vector>
+<double>0,239193</double>
+<double>-0,437881</double>
+<double>0,572004</double>
+</vector>
+<vector>
+<double>-0,385084</double>
+<double>-0,105933</double>
+<double>-0,547787</double>
+</vector>
+<vector>
+<double>-0,624934</double>
+<double>-0,447531</double>
+<double>0,112888</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_8_for_the_3_convolutional_layer">
+<vector>
+<double>-0,166997</double>
+<double>-0,660786</double>
+<double>0,813608</double>
+</vector>
+<vector>
+<double>-0,793658</double>
+<double>-0,747849</double>
+<double>-0,009112</double>
+</vector>
+<vector>
+<double>0,520950</double>
+<double>0,969503</double>
+<double>0,870008</double>
+</vector>
+</matrix>
+</child>
+<child hidden_layer_weights="hidden_layer_weights">
+<matrix class="vector" id="Weights to first hidden layer">
+<vector>
+<double>0,368890</double>
+<double>0,586941</double>
+<double>0,313127</double>
+<double>0,639355</double>
+<double>0,741080</double>
+<double>0,104970</double>
+<double>0,495619</double>
+<double>0,967191</double>
+<double>0,401240</double>
+<double>0,092214</double>
+<double>-0,310114</double>
+<double>-0,918271</double>
+<double>0,480877</double>
+<double>-0,812520</double>
+<double>0,968726</double>
+<double>0,371572</double>
+<double>0,819286</double>
+<double>-0,417893</double>
+<double>-0,002949</double>
+<double>-0,330057</double>
+<double>-0,337228</double>
+<double>0,251331</double>
+<double>0,969689</double>
+<double>0,442012</double>
+<double>-0,396474</double>
+<double>0,179273</double>
+<double>0,237851</double>
+<double>-0,418343</double>
+<double>-0,383687</double>
+<double>-0,131983</double>
+<double>-0,479110</double>
+<double>0,687819</double>
+<double>-0,872879</double>
+</vector>
+<vector>
+<double>-0,233623</double>
+<double>-0,671796</double>
+<double>0,934810</double>
+<double>0,146637</double>
+<double>-0,855342</double>
+<double>0,158860</double>
+<double>0,257820</double>
+<double>0,333761</double>
+<double>-0,366266</double>
+<double>0,438537</double>
+<double>0,196963</double>
+<double>-0,172033</double>
+<double>-0,595574</double>
+<double>-0,777449</double>
+<double>-0,992843</double>
+<double>-0,232336</double>
+<double>0,747958</double>
+<double>-0,639158</double>
+<double>-0,757482</double>
+<double>-0,211346</double>
+<double>-0,817703</double>
+<double>0,035429</double>
+<double>-0,323514</double>
+<double>-0,901675</double>
+<double>0,314240</double>
+<double>0,157270</double>
+<double>0,192392</double>
+<double>-0,285614</double>
+<double>-0,557981</double>
+<double>-0,538008</double>
+<double>0,299318</double>
+<double>0,236894</double>
+<double>0,371444</double>
+</vector>
+<vector>
+<double>0,499542</double>
+<double>0,490143</double>
+<double>0,278917</double>
+<double>0,511162</double>
+<double>-0,991677</double>
+<double>-0,094848</double>
+<double>-0,929158</double>
+<double>-0,005483</double>
+<double>-0,342446</double>
+<double>-0,773439</double>
+<double>0,666487</double>
+<double>0,391968</double>
+<double>0,841829</double>
+<double>-0,276798</double>
+<double>0,654782</double>
+<double>0,548547</double>
+<double>-0,003712</double>
+<double>0,368357</double>
+<double>-0,723523</double>
+<double>0,317662</double>
+<double>-0,145345</double>
+<double>-0,584313</double>
+<double>0,795120</double>
+<double>-0,101790</double>
+<double>0,618191</double>
+<double>0,059798</double>
+<double>-0,532688</double>
+<double>0,756555</double>
+<double>-0,603959</double>
+<double>-0,228504</double>
+<double>0,104633</double>
+<double>0,285385</double>
+<double>-0,624767</double>
+</vector>
+<vector>
+<double>-0,262673</double>
+<double>-0,850940</double>
+<double>0,519470</double>
+<double>-0,896122</double>
+<double>0,846138</double>
+<double>0,374775</double>
+<double>0,495606</double>
+<double>-0,672064</double>
+<double>-0,537144</double>
+<double>-0,057033</double>
+<double>-0,532217</double>
+<double>0,347873</double>
+<double>0,369513</double>
+<double>0,153381</double>
+<double>-0,337042</double>
+<double>0,886103</double>
+<double>0,152399</double>
+<double>0,455101</double>
+<double>-0,279115</double>
+<double>0,217766</double>
+<double>0,868989</double>
+<double>0,115121</double>
+<double>-0,727851</double>
+<double>0,972934</double>
+<double>-0,736596</double>
+<double>0,190091</double>
+<double>0,659617</double>
+<double>-0,311498</double>
+<double>0,224884</double>
+<double>0,065692</double>
+<double>0,839182</double>
+<double>0,037030</double>
+<double>0,237917</double>
+</vector>
+<vector>
+<double>-0,411679</double>
+<double>0,900208</double>
+<double>-0,813039</double>
+<double>-0,684386</double>
+<double>0,187784</double>
+<double>-0,800720</double>
+<double>0,666477</double>
+<double>0,660024</double>
+<double>-0,851678</double>
+<double>0,185080</double>
+<double>0,350952</double>
+<double>0,275280</double>
+<double>0,306261</double>
+<double>0,186423</double>
+<double>-0,623598</double>
+<double>0,832546</double>
+<double>-0,674487</double>
+<double>-0,721884</double>
+<double>-0,350386</double>
+<double>-0,482188</double>
+<double>0,167141</double>
+<double>-0,147601</double>
+<double>-0,178424</double>
+<double>0,415818</double>
+<double>-0,896983</double>
+<double>-0,276166</double>
+<double>-0,859820</double>
+<double>0,629817</double>
+<double>-0,780535</double>
+<double>-0,690552</double>
+<double>0,371973</double>
+<double>-0,198582</double>
+<double>0,400602</double>
+</vector>
+<vector>
+<double>-0,535477</double>
+<double>-0,894941</double>
+<double>-0,730195</double>
+<double>0,999987</double>
+<double>-0,639255</double>
+<double>0,061616</double>
+<double>0,850753</double>
+<double>0,777897</double>
+<double>0,266144</double>
+<double>0,888636</double>
+<double>-0,034099</double>
+<double>-0,305768</double>
+<double>-0,485469</double>
+<double>0,333113</double>
+<double>-0,127006</double>
+<double>0,723834</double>
+<double>-0,452178</double>
+<double>0,206218</double>
+<double>0,863791</double>
+<double>-0,697540</double>
+<double>-0,469077</double>
+<double>0,659878</double>
+<double>-0,989183</double>
+<double>-0,578234</double>
+<double>-0,893155</double>
+<double>-0,391429</double>
+<double>-0,802325</double>
+<double>0,318292</double>
+<double>0,349211</double>
+<double>0,110795</double>
+<double>0,619571</double>
+<double>-0,275691</double>
+<double>0,135662</double>
+</vector>
+<vector>
+<double>0,168977</double>
+<double>0,043127</double>
+<double>0,040420</double>
+<double>-0,591343</double>
+<double>-0,673737</double>
+<double>0,514588</double>
+<double>0,746543</double>
+<double>-0,846011</double>
+<double>-0,552687</double>
+<double>-0,098165</double>
+<double>-0,036128</double>
+<double>-0,630755</double>
+<double>0,064882</double>
+<double>-0,422444</double>
+<double>0,917274</double>
+<double>-0,592904</double>
+<double>0,729158</double>
+<double>-0,015157</double>
+<double>0,816969</double>
+<double>-0,854910</double>
+<double>0,317493</double>
+<double>-0,211223</double>
+<double>0,566564</double>
+<double>-0,052212</double>
+<double>-0,084569</double>
+<double>0,777447</double>
+<double>0,847456</double>
+<double>-0,927345</double>
+<double>0,564525</double>
+<double>-0,970841</double>
+<double>0,395696</double>
+<double>0,437734</double>
+<double>-0,997749</double>
+</vector>
+<vector>
+<double>-0,511175</double>
+<double>-0,647579</double>
+<double>-0,843536</double>
+<double>0,779911</double>
+<double>-0,216620</double>
+<double>-0,391410</double>
+<double>0,662075</double>
+<double>0,299414</double>
+<double>0,302264</double>
+<double>-0,327298</double>
+<double>-0,390089</double>
+<double>0,218212</double>
+<double>-0,824713</double>
+<double>0,551535</double>
+<double>0,837861</double>
+<double>0,587314</double>
+<double>-0,015202</double>
+<double>0,676267</double>
+<double>0,244191</double>
+<double>-0,784303</double>
+<double>0,523556</double>
+<double>-0,511346</double>
+<double>0,548772</double>
+<double>0,730362</double>
+<double>0,561737</double>
+<double>-0,046831</double>
+<double>-0,660701</double>
+<double>-0,485062</double>
+<double>0,438924</double>
+<double>-0,239571</double>
+<double>-0,376099</double>
+<double>0,603793</double>
+<double>-0,988582</double>
+</vector>
+<vector>
+<double>-0,695220</double>
+<double>-0,519875</double>
+<double>-0,860187</double>
+<double>-0,749063</double>
+<double>0,826053</double>
+<double>0,984457</double>
+<double>0,958868</double>
+<double>-0,503912</double>
+<double>0,021372</double>
+<double>0,695369</double>
+<double>0,424175</double>
+<double>0,254316</double>
+<double>-0,479006</double>
+<double>-0,423241</double>
+<double>0,529743</double>
+<double>0,096084</double>
+<double>-0,072676</double>
+<double>0,448504</double>
+<double>0,673656</double>
+<double>0,294415</double>
+<double>-0,025146</double>
+<double>-0,347973</double>
+<double>-0,412644</double>
+<double>-0,812161</double>
+<double>0,384153</double>
+<double>-0,660360</double>
+<double>-0,036533</double>
+<double>0,556515</double>
+<double>-0,599295</double>
+<double>-0,235666</double>
+<double>0,291778</double>
+<double>0,355625</double>
+<double>-0,389522</double>
+</vector>
+<vector>
+<double>0,464297</double>
+<double>0,595596</double>
+<double>-0,590690</double>
+<double>0,995598</double>
+<double>0,639390</double>
+<double>0,153942</double>
+<double>0,487622</double>
+<double>0,258959</double>
+<double>0,942931</double>
+<double>-0,130973</double>
+<double>-0,634888</double>
+<double>0,461459</double>
+<double>0,754768</double>
+<double>-0,340716</double>
+<double>0,398151</double>
+<double>-0,405423</double>
+<double>0,697884</double>
+<double>-0,643585</double>
+<double>0,636255</double>
+<double>-0,272803</double>
+<double>-0,685456</double>
+<double>0,458720</double>
+<double>-0,770664</double>
+<double>-0,800881</double>
+<double>-0,114880</double>
+<double>0,219458</double>
+<double>-0,549018</double>
+<double>0,251928</double>
+<double>-0,197625</double>
+<double>-0,389184</double>
+<double>-0,987990</double>
+<double>-0,694248</double>
+<double>-0,476859</double>
+</vector>
+<vector>
+<double>-0,749050</double>
+<double>0,465309</double>
+<double>-0,077159</double>
+<double>-0,891885</double>
+<double>-0,281809</double>
+<double>0,755228</double>
+<double>0,806733</double>
+<double>-0,541726</double>
+<double>-0,439916</double>
+<double>-0,993537</double>
+<double>0,243646</double>
+<double>-0,343251</double>
+<double>0,372250</double>
+<double>-0,620498</double>
+<double>-0,757714</double>
+<double>0,809865</double>
+<double>-0,008045</double>
+<double>-0,556069</double>
+<double>-0,007851</double>
+<double>-0,423461</double>
+<double>0,766073</double>
+<double>0,277308</double>
+<double>0,731070</double>
+<double>-0,234208</double>
+<double>-0,761777</double>
+<double>0,051494</double>
+<double>0,653539</double>
+<double>0,672207</double>
+<double>-0,368684</double>
+<double>0,474815</double>
+<double>0,065920</double>
+<double>-0,934215</double>
+<double>0,310736</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_1_for_the_1_convolutional_layer">
+<vector>
+<double>0,680232</double>
+<double>0,596738</double>
+<double>-0,329695</double>
+</vector>
+<vector>
+<double>-0,211378</double>
+<double>0,823154</double>
+<double>0,536320</double>
+</vector>
+<vector>
+<double>0,566055</double>
+<double>-0,605036</double>
+<double>-0,444588</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_1_convolutional_layer">
+<vector>
+<double>0,107726</double>
+<double>-0,270650</double>
+<double>0,832158</double>
+</vector>
+<vector>
+<double>-0,045422</double>
+<double>0,026579</double>
+<double>0,271192</double>
+</vector>
+<vector>
+<double>0,257524</double>
+<double>0,904234</double>
+<double>0,434364</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_1_for_the_2_convolutional_layer">
+<vector>
+<double>-0,716795</double>
+<double>-0,514226</double>
+<double>-0,686642</double>
+</vector>
+<vector>
+<double>0,213938</double>
+<double>-0,725537</double>
+<double>-0,198111</double>
+</vector>
+<vector>
+<double>-0,967399</double>
+<double>0,608354</double>
+<double>-0,740419</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_2_convolutional_layer">
+<vector>
+<double>-0,782386</double>
+<double>0,025863</double>
+<double>-0,407943</double>
+</vector>
+<vector>
+<double>0,997848</double>
+<double>0,678222</double>
+<double>0,275104</double>
+</vector>
+<vector>
+<double>-0,563489</double>
+<double>0,225277</double>
+<double>0,048571</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_3_for_the_2_convolutional_layer">
+<vector>
+<double>-0,012869</double>
+<double>0,542715</double>
+<double>-0,199574</double>
+</vector>
+<vector>
+<double>0,945550</double>
+<double>0,053475</double>
+<double>0,783059</double>
+</vector>
+<vector>
+<double>-0,415001</double>
+<double>0,539828</double>
+<double>-0,433399</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_4_for_the_2_convolutional_layer">
+<vector>
+<double>-0,295097</double>
+<double>-0,860489</double>
+<double>-0,827902</double>
+</vector>
+<vector>
+<double>0,615444</double>
+<double>0,898653</double>
+<double>-0,615575</double>
+</vector>
+<vector>
+<double>0,838039</double>
+<double>0,051991</double>
+<double>0,326441</double>
+</vector>
+</matrix>
+<matrix class="vector" id="Weights to output layer">
+<vector>
+<double>0,192681</double>
+<double>0,541372</double>
+<double>-0,414222</double>
+<double>0,246389</double>
+<double>-0,544896</double>
+<double>-0,858886</double>
+<double>-0,136313</double>
+<double>-0,344768</double>
+<double>-0,374121</double>
+<double>-0,727659</double>
+<double>-0,662326</double>
+<double>0,267170</double>
+</vector>
+<vector>
+<double>-0,882279</double>
+<double>0,774394</double>
+<double>0,764408</double>
+<double>0,437333</double>
+<double>0,893849</double>
+<double>-0,212508</double>
+<double>0,627807</double>
+<double>0,778687</double>
+<double>0,504957</double>
+<double>0,178237</double>
+<double>0,169170</double>
+<double>0,076351</double>
+</vector>
+<vector>
+<double>0,121744</double>
+<double>0,866545</double>
+<double>-0,267944</double>
+<double>0,849079</double>
+<double>-0,972268</double>
+<double>-0,007138</double>
+<double>0,506765</double>
+<double>0,293424</double>
+<double>-0,404134</double>
+<double>-0,883895</double>
+<double>-0,047291</double>
+<double>-0,966699</double>
+</vector>
+<vector>
+<double>0,127235</double>
+<double>-0,653871</double>
+<double>0,798863</double>
+<double>-0,631868</double>
+<double>-0,678351</double>
+<double>-0,126830</double>
+<double>-0,287234</double>
+<double>-0,317035</double>
+<double>0,618741</double>
+<double>0,779106</double>
+<double>0,631098</double>
+<double>0,863036</double>
+</vector>
+<vector>
+<double>-0,514748</double>
+<double>-0,104037</double>
+<double>0,495275</double>
+<double>-0,435432</double>
+<double>-0,760021</double>
+<double>-0,413645</double>
+<double>0,995940</double>
+<double>-0,899664</double>
+<double>-0,621873</double>
+<double>0,891003</double>
+<double>0,852135</double>
+<double>-0,304908</double>
+</vector>
+<vector>
+<double>-0,962178</double>
+<double>-0,024559</double>
+<double>-0,048389</double>
+<double>-0,665669</double>
+<double>-0,076304</double>
+<double>-0,511863</double>
+<double>-0,928667</double>
+<double>0,533402</double>
+<double>0,182221</double>
+<double>-0,887956</double>
+<double>0,053045</double>
+<double>-0,588572</double>
+</vector>
+<vector>
+<double>-0,312317</double>
+<double>0,590463</double>
+<double>-0,454026</double>
+<double>-0,594046</double>
+<double>0,297090</double>
+<double>0,824781</double>
+<double>0,047097</double>
+<double>0,606660</double>
+<double>-0,893121</double>
+<double>0,850439</double>
+<double>0,164500</double>
+<double>0,045257</double>
+</vector>
+<vector>
+<double>-0,981853</double>
+<double>0,278018</double>
+<double>0,893281</double>
+<double>0,252250</double>
+<double>0,830441</double>
+<double>0,132329</double>
+<double>-0,598106</double>
+<double>0,397426</double>
+<double>-0,797092</double>
+<double>-0,061900</double>
+<double>0,458795</double>
+<double>-0,198029</double>
+</vector>
+<vector>
+<double>0,847385</double>
+<double>0,931363</double>
+<double>-0,755348</double>
+<double>-0,647522</double>
+<double>-0,798286</double>
+<double>-0,618582</double>
+<double>0,323583</double>
+<double>0,363843</double>
+<double>-0,685450</double>
+<double>-0,486062</double>
+<double>-0,549529</double>
+<double>-0,385663</double>
+</vector>
+<vector>
+<double>0,202853</double>
+<double>-0,689327</double>
+<double>0,731358</double>
+<double>-0,746662</double>
+<double>0,228453</double>
+<double>-0,930567</double>
+<double>0,399574</double>
+<double>0,808374</double>
+<double>-0,511703</double>
+<double>0,174022</double>
+<double>-0,471656</double>
+<double>0,359807</double>
+</vector>
+</matrix>
+</child>
+</object>
+<object class="conv_layers" id="conv_layers">
+<child pooling_layers="pooling_layers">
+map 0 of pooling layer 0
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,351435 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000035 ;0,000000 ;-0,000045 ;0,000000 ;0,000032 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000009 ;0,000000 ;-0,000013 ;0,000026 ;0,000000 ;0,332845 ;0,000000 ;0,041393 ;0,000000 ;1,232187 ;0,000000 ;0,000000 ;452,982670 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000008 ;0,000000 ;-0,000002 ;0,000020 ;0,000000 ;0,282764 ;0,000000 ;0,626379 ;0,000000 ;0,497281 ;0,000000 ;0,000000 ;356,423114 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000001 ;-0,000038 ;0,000000 ;-0,000012 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;-0,000030 ;0,000066 ;0,000000 ;-0,000009 ;0,000000 ;-0,000006 ;0,000000 ;0,000003 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000005 ;0,000000 ;0,000000 ;0,099933 ;0,000000 ;0,133320 ;0,000000 ;1,384661 ;0,000000 ;411,117386 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000002 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000005 ;0,000000 ;1,074301 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000005 ;0,000000 ;0,000000 ;0,000044 ;-0,000027 ;0,000000 ;0,000000 ;-0,000003 ;-0,000023 ;0,000000 ;-0,000020 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000024 ;0,000000 ;0,000017 ;0,000000 ;0,000094 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000040 ;-0,000014 ;0,000000 ;0,000000 ;0,000000 ;-0,000002 ;0,000000 ;1,107185 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000066 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000010 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000018 ;0,000000 ;0,000009 ;0,000000 ;0,000000 ;-0,000052 ;0,000000 ;0,000000 ;0,000000 ;0,000002 ;0,000000 ;-0,000002 ;0,000000 ;0,000000 ;1,116098 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000016 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000027 ;0,000000 ;0,000034 ;0,000000 ;-0,000009 ;0,000000 ;0,000038 ;0,000000 ;-0,000040 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,038161 ;0,000000 ;0,206152 ;0,000000 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000021 ;0,000000 ;0,000000 ;-0,000012 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,075389 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000001 ;0,000000 ;0,000023 ;0,000000 ;-0,077206 ;0,000000 ;0,098467 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,050879 ;-0,022941 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,158000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,114208 ;0,000000 ;-0,000220 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,058321 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,342908 ;0,000000 ;-0,010371 ;0,000000 ;0,910002 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,356288 ;0,237646 ;0,000000 ;0,146469 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,126177 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,117907 ;0,707403 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,003869 ;0,000000 ;0,035759 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,754291 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,766386 ;-0,135802 ;0,000000 ;0,205845 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,110106 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,520631 ;0,000000 ;0,762928 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,012303 ;0,000000 ;0,158803 ;0,000000 ;-0,312520 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+411,117386 ;0,000000 ;0,000000 ;509,422957 ;384,842141 ;0,000000 ;162,895654 ;0,000000 ;22,340033 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;257,460246 ;0,000000 ;403,634307 ;411,117386 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+411,117386 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;
+0,000000 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;411,117386 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+
+map 1 of pooling layer 0
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000060 ;0,000000 ;-0,103833 ;0,000000 ;0,207522 ;0,000000 ;0,949707 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000007 ;0,000000 ;0,000026 ;0,000000 ;-0,000107 ;0,000000 ;-0,000117 ;0,000000 ;-0,000176 ;0,000000 ;-0,302959 ;0,000000 ;0,716135 ;0,000000 ;0,333380 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000002 ;0,000000 ;-0,000003 ;0,000000 ;-0,000005 ;0,000000 ;0,000021 ;0,000000 ;0,000087 ;0,000000 ;-0,000088 ;0,000000 ;-0,000003 ;0,000000 ;-0,000038 ;0,000000 ;0,000000 ;-0,138351 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,174734 ;0,000000 ;0,636034 ;0,000000 ;645,812220 ;0,000000 ;0,000000 ;
+0,000005 ;0,000000 ;-0,000005 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000011 ;0,000000 ;0,000047 ;0,000000 ;0,000014 ;0,000000 ;0,000000 ;-0,000041 ;-0,000075 ;0,000000 ;-0,000034 ;0,000000 ;0,000000 ;-0,084960 ;0,000000 ;0,851505 ;0,000000 ;642,185557 ;0,000000 ;0,000000 ;
+0,000001 ;0,000000 ;0,000011 ;0,000000 ;0,000008 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000090 ;0,000000 ;0,000000 ;0,000000 ;0,000104 ;0,327274 ;0,000000 ;0,101497 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;-0,000024 ;0,000000 ;0,000000 ;0,000037 ;0,000000 ;0,000000 ;0,000075 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000010 ;0,000000 ;0,000011 ;0,000000 ;-0,000009 ;0,000000 ;0,000020 ;0,000000 ;0,000037 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000297 ;0,000000 ;-0,000050 ;-0,000008 ;0,000000 ;-0,157780 ;0,000000 ;1,439435 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000010 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000018 ;0,000000 ;0,000011 ;0,000000 ;-0,000007 ;0,000000 ;0,000044 ;0,000000 ;0,000021 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000063 ;0,000000 ;-0,128368 ;0,000000 ;0,725696 ;1,294642 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000149 ;0,000000 ;-0,000063 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000025 ;0,000000 ;0,000026 ;0,000000 ;-0,000046 ;0,000000 ;0,000001 ;0,000000 ;0,000012 ;0,000000 ;-0,000039 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,217185 ;0,000000 ;0,541708 ;0,809439 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000082 ;0,000000 ;-0,000259 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000024 ;0,000000 ;-0,010166 ;0,000000 ;0,735961 ;0,000000 ;0,357316 ;0,000000 ;-0,286572 ;0,000000 ;0,451391 ;0,000000 ;0,867965 ;0,000000 ;-0,182239 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,648480 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,053585 ;0,000000 ;-0,385350 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,378992 ;0,000000 ;0,582982 ;0,000000 ;0,382553 ;0,000000 ;0,334086 ;0,000000 ;0,493947 ;0,000000 ;0,005511 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,245253 ;0,000000 ;0,187524 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,108131 ;0,000000 ;0,762676 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,006138 ;0,000000 ;-0,323217 ;0,000000 ;1,228866 ;0,000000 ;-0,149908 ;0,000000 ;-0,112796 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,070638 ;1,442112 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,100505 ;0,000000 ;1,291333 ;0,000000 ;-0,195727 ;0,000000 ;0,873371 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+642,185557 ;0,000000 ;533,364595 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;401,644102 ;0,000000 ;501,938233 ;0,000000 ;582,073574 ;627,007617 ;0,000000 ;0,000000 ;640,999786 ;642,185557 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+642,185557 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;
+0,000000 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;642,185557 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+
+
+map 0 of pooling layer 1
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,484085 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000001 ;0,000000 ;-1,436933 ;0,000000 ;-1,421592 ;
+0,000000 ;0,000001 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,443030 ;
+0,000000 ;0,000000 ;-0,000001 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,510769 ;
+0,000000 ;-0,000000 ;0,000000 ;0,000003 ;0,000000 ;-0,000001 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,532168 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000001 ;0,000000 ;0,000000 ;0,000000 ;-1,546654 ;
+-0,000001 ;0,000000 ;0,000001 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000001 ;0,000000 ;0,000000 ;-1,543017 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,547290 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,532168 ;
+-1,483168 ;0,000000 ;-1,316422 ;0,000000 ;0,000000 ;-0,913263 ;-0,900910 ;0,000000 ;0,000000 ;0,000000 ;-1,532168 ;
+-1,741563 ;0,000000 ;0,000000 ;-1,015540 ;-0,954772 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-1,532168 ;
+
+map 1 of pooling layer 1
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,267074 ;
+0,000000 ;0,000000 ;-0,000109 ;0,000000 ;-0,000023 ;0,000000 ;0,000057 ;0,000000 ;0,386544 ;0,000000 ;0,196419 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,242318 ;
+0,000000 ;0,000000 ;0,000143 ;0,000000 ;-0,000035 ;0,000000 ;-0,000115 ;0,000000 ;0,000000 ;0,000000 ;0,227713 ;
+0,000000 ;0,000000 ;0,000000 ;0,000104 ;0,000000 ;0,000000 ;0,000000 ;-0,000021 ;0,000000 ;0,000000 ;0,204356 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000173 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,195750 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,204902 ;
+0,000000 ;0,000083 ;0,000000 ;-0,000031 ;-0,000068 ;0,000000 ;-0,000032 ;0,000000 ;0,452420 ;0,000000 ;0,187850 ;
+0,000000 ;0,000000 ;0,000000 ;0,240051 ;0,000000 ;0,147167 ;0,188249 ;0,000000 ;0,000000 ;0,000000 ;0,204356 ;
+0,292744 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,204356 ;
+0,235006 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,397113 ;0,000000 ;0,000000 ;0,000000 ;0,204356 ;
+
+map 2 of pooling layer 1
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;1,146368 ;1,181946 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,103118 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,160842 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000074 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;1,154611 ;1,158450 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,158395 ;
+0,000000 ;0,000000 ;0,000000 ;-0,000001 ;0,000000 ;0,000563 ;0,000000 ;0,000000 ;0,000000 ;1,187995 ;1,158395 ;
+-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000001 ;0,000000 ;-0,000373 ;0,000000 ;0,000000 ;1,113993 ;1,155271 ;
+0,000000 ;0,000000 ;0,000000 ;-0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,166890 ;
+0,000000 ;1,229115 ;1,256076 ;0,000000 ;0,000000 ;0,941572 ;0,000000 ;0,000000 ;0,000000 ;1,189396 ;1,158194 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,132106 ;0,000000 ;0,000000 ;1,158395 ;
+0,000000 ;1,076950 ;0,000000 ;0,000000 ;0,000000 ;1,130637 ;0,000000 ;1,158394 ;0,000000 ;1,158395 ;1,158395 ;
+
+map 3 of pooling layer 1
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000318 ;0,548581 ;0,000000 ;0,168150 ;
+0,000000 ;0,000000 ;0,000000 ;-0,000038 ;-0,000218 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,180558 ;
+-0,000009 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,141322 ;0,120993 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000198 ;-0,000069 ;0,000000 ;0,000000 ;0,000000 ;0,085723 ;
+0,000019 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000086 ;0,000194 ;0,000000 ;0,000000 ;0,000000 ;0,084464 ;
+0,000000 ;0,000000 ;0,000052 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,084464 ;
+0,000045 ;0,000000 ;0,000036 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000129 ;0,811628 ;0,000000 ;0,071505 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;-0,000176 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,070995 ;
+0,000000 ;0,000000 ;0,000000 ;0,410666 ;0,602322 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,079845 ;
+0,000000 ;0,260598 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,227662 ;0,000000 ;0,000000 ;0,084464 ;
+-0,032388 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,192362 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,084464 ;
+
+
+map 0 of pooling layer 2
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000782 ;0,000000 ;0,000587 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000972 ;0,000000 ;0,000000 ;0,000866 ;
+
+map 1 of pooling layer 2
+0,000000 ;0,000000 ;0,000000 ;-0,001116 ;
+-0,000960 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;-0,001083 ;0,000000 ;0,000587 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+
+map 2 of pooling layer 2
+0,000000 ;-0,000024 ;0,000000 ;-0,000780 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;-0,000468 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;-0,000290 ;
+
+map 3 of pooling layer 2
+0,000000 ;0,000533 ;0,000000 ;0,000469 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000609 ;0,000000 ;0,000000 ;-0,000108 ;
+
+map 4 of pooling layer 2
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000084 ;0,000000 ;-0,000518 ;0,000000 ;
+0,000000 ;-0,000768 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000340 ;0,000000 ;
+
+map 5 of pooling layer 2
+0,000000 ;0,000006 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000394 ;0,000000 ;
+0,000000 ;0,000000 ;0,000893 ;0,000000 ;
+0,000000 ;0,000465 ;0,000000 ;0,000000 ;
+
+map 6 of pooling layer 2
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+-0,000428 ;0,000000 ;0,000742 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+0,000025 ;0,000000 ;-0,000618 ;0,000000 ;
+
+map 7 of pooling layer 2
+0,000000 ;0,000664 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;0,000000 ;0,000259 ;
+-0,000331 ;0,000000 ;0,000000 ;0,000000 ;
+0,000000 ;0,000000 ;-0,000403 ;0,000000 ;
+
+
+</child>
+</object>
+<object class="hidden_layers" id="hidden_layers">
+<child general_neuron_layers="general_neuron_layers">
+-1,584735 ;-5,122743 ;-2,070629 ;4,344700 ;-1,425443 ;2,558753 ;-1,775584 ;1,320770 ;0,429458 ;-2,567914 ;-2,183203 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;1,000000 ;0,000000 ;0,000000 ;1,000000 ;0,000000 ;0,000000 ;1,000000 ;0,000000 ;0,000000 ;
+0,365762 ;0,196954 ;-0,038324 ;-0,046828 ;0,300812 ;0,384072 ;0,383329 ;0,343662 ;0,223478 ;-0,150733 ;0,032351 ;0,000000 ;0,000000 ;-0,592342 ;0,643583 ;0,123342 ;-0,395497 ;-0,635207 ;-0,706381 ;0,440389 ;-0,259756 ;0,093912 ;-0,048909 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;0,000000 ;
+<child output_layer="output_layer">
+-0,592342 ;0,643583 ;0,123342 ;-0,395497 ;-0,635207 ;-0,706381 ;0,440389 ;-0,259756 ;0,093912 ;-0,048909 ;
+<object class="input_put_map" id="input_put_map">
+<child first_input_put_map="first_input_put_map">
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;252,000000 ;237,000000 ;237,000000 ;237,000000 ;129,000000 ;119,000000 ;80,000000 ;229,000000 ;89,000000 ;0,000000 ;8,000000 ;128,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;225,000000 ;219,000000 ;161,000000 ;101,000000 ;85,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;30,000000 ;83,000000 ;2,000000 ;13,000000 ;60,000000 ;191,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;206,000000 ;17,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;4,000000 ;162,000000 ;173,000000 ;173,000000 ;199,000000 ;216,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;237,000000 ;36,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;57,000000 ;73,000000 ;8,000000 ;14,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;175,000000 ;99,000000 ;148,000000 ;2,000000 ;2,000000 ;50,000000 ;244,000000 ;255,000000 ;212,000000 ;101,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;241,000000 ;254,000000 ;101,000000 ;2,000000 ;165,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;116,000000 ;2,000000 ;65,000000 ;253,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;244,000000 ;65,000000 ;2,000000 ;185,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;220,000000 ;14,000000 ;30,000000 ;95,000000 ;147,000000 ;254,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;174,000000 ;15,000000 ;2,000000 ;2,000000 ;136,000000 ;230,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;210,000000 ;69,000000 ;2,000000 ;2,000000 ;105,000000 ;228,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;239,000000 ;162,000000 ;3,000000 ;2,000000 ;68,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;6,000000 ;2,000000 ;6,000000 ;191,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;209,000000 ;125,000000 ;72,000000 ;2,000000 ;2,000000 ;48,000000 ;253,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;216,000000 ;107,000000 ;26,000000 ;2,000000 ;2,000000 ;2,000000 ;5,000000 ;73,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;231,000000 ;141,000000 ;34,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;54,000000 ;177,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;232,000000 ;189,000000 ;42,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;57,000000 ;174,000000 ;253,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;237,000000 ;84,000000 ;36,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;60,000000 ;175,000000 ;246,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;200,000000 ;83,000000 ;29,000000 ;2,000000 ;2,000000 ;2,000000 ;2,000000 ;11,000000 ;122,000000 ;244,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;119,000000 ;2,000000 ;2,000000 ;2,000000 ;43,000000 ;120,000000 ;123,000000 ;239,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;255,000000 ;
+</object>
+</object>

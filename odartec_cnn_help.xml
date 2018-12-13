@@ -1,0 +1,77 @@
+﻿<book xmlns='http://docbook.org/ns/docbook'>
+ <info>
+  <title>OdarTec CNN help</title>
+   <author><personname>
+    <firstname>Ralf</firstname>
+    <surname>Paetzelt</surname>
+   </personname></author>
+  <publisher><publishername>odartec.com</publishername></publisher>
+  <pubdate>2018</pubdate>
+ </info>
+ <mediaobject>
+   <imageobject role="html">
+       <imagedata fileref="image/ic_launcher.png" width="210mm" depth="120mm" scale="50"  align="center"/>
+      </imageobject>
+ </mediaobject>
+<preface><title>About OdarTec CNN</title>
+ OdarTec CNN is a program that lets you try and understand Convolutional Neural Networks. It provides you with several options letting you build different CNN‘s or train a CNN with different parameters.
+</preface>
+ <section id="intro">
+  <title>Introduction</title>
+  <para>This document guides you through the complex theme of CNN (convolutional neural network). For a quick reference about CNN‘s a special glossary is included at the end of this document.</para>
+  </section>
+ <section id="body">
+  <title>Quick overview</title>
+  <para>Main body text goes here.</para>
+ </section>
+<chapter><title>Setting CNN options</title>
+<para>The CNN-options can be set in several tab pages using the Setup CNN dialog. The settings are splitted among 3 tab pages where tab page 1 contains parameter to set the network topology. Tab page to contains the parameter for training and tab page 3 let set you some additional parameter.</para>
+	<section><title>Setting up the CNN-Topology</title>
+<para>…...</para>
+	<example></example>
+</section>
+<section><title>Setting up the CNN-Training parameter</title>
+<para>…...</para>
+	<example></example>
+</section>
+ </chapter>
+ <glossterm linkend="xml">Extensible Markup Language</glossterm>
+  <glossary>
+   <title>CNN Glossary</title>
+    <glossdiv><title>E</title>
+     <glossentry xml:id="momentum"><glossterm>Momentum</glossterm> 
+      <acronym>M</acronym>
+       <glossdef>
+        <para>The weight delta of i-1 multiplied by a value. </para>
+        <glossseealso otherterm="sgml">
+       </glossdef>
+      </glossentry>
+     <glossentry xml:id="momentum_nesterov">
+      <glossterm>Momentum Nesterov
+      </glossterm> 
+      <acronym>NM</acronym>
+       <glossdef>
+        <para>The weight delta of i-1 multiplied by a value.</para>
+        <glossseealso otherterm="sgml">
+       </glossdef>
+      </glossentry>
+     <glossentry xml:id="mini_batch_GD">
+      <glossterm>Mini-Batch Gradient Descent</glossterm> 
+      <acronym>MBGD</acronym>
+       <glossdef>
+        <para>A method for updating weight parameter in a CNN. Using MBGD the weights get updated after learning a mini-batch (a subset of the whole training data). This leads to a relative fast convergence witch is much more stable than using SGD.</para>
+        <glossseealso otherterm="sgml">
+       </glossdef>
+      </glossentry>
+     <glossentry xml:id="sgd">
+      <glossterm>Stochastic Gradient Descent
+      </glossterm> 
+      <acronym>SGD</acronym>
+       <glossdef>
+        <para>A method for updating weight parameter in a CNN. Using SGD the weights get updated after every learned map. The net converges faster using SGD than using Batch learning but slower and more unstable than using Mini-Batch learning.</para>
+        <glossseealso otherterm="sgml">
+       </glossdef>
+      </glossentry>
+    </glossdiv>
+  </glossary>
+</book>

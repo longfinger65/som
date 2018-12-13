@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- The Net 00001.0000.0000 -->
+<object class="CNN" id="cnn">
+<object class="NetParameter" id="NetParameter">
+<child cnn_topology="net_topology">
+<property name="number_of_input_channels">1</property>
+<property name="width_of_input_map">28</property>
+<property name="height_of_input_map">28</property>
+<property name="number_of_convolutional_layers">3</property>
+<property name="number_of_filter_kernels_pro_input_channel">4</property>
+<property name="number_of_filter_kernels_pro_pooling_map">5</property>
+<property name="width_of_filter_kernels_for_the_first_convolutional_layer">5</property>
+<property name="width_of_filter_kernels_for_the_other_convolutional_layer">3</property>
+<property name="width_of_pooling_window">2</property>
+<property name="kind_of_pooling">0</property>
+<property name="number_of_hidden_layers">2</property>
+<property name="number_of_neurons_in_hidden_layers">50</property>
+<property name="number_of_classes">2</property>
+<property name="kind_of_classification">0</property>
+</child>
+<child cnn_training_parameter="cnn_training_parameter">
+<property name="number_of_epochs">0</property>
+<property name="batch_size">0</property>
+<property name="number_of_training_images">0</property>
+<property name="number_of_test_images">0</property>
+<property name="path_to_training_images">119968</property>
+<property name="path_to_test_images">119968</property>
+<property name="learning_rate">1202590843</property>
+</child>
+</object>
+<object class="cnn_weights" id="cnn_weights">
+<property name="number_of_epochs">0</property>
+<matrix class="vector" id="filter_kernel_1_for_the_1_convolutional_layer">
+<vector>
+<double>0,840188</double>
+<double>0,394383</double>
+<double>0,783099</double>
+<double>0,798440</double>
+<double>0,911647</double>
+</vector>
+<vector>
+<double>0,197551</double>
+<double>0,335223</double>
+<double>0,768230</double>
+<double>0,277775</double>
+<double>0,553970</double>
+</vector>
+<vector>
+<double>0,477397</double>
+<double>0,628871</double>
+<double>0,364784</double>
+<double>0,513401</double>
+<double>0,952230</double>
+</vector>
+<vector>
+<double>0,916195</double>
+<double>0,635712</double>
+<double>0,717297</double>
+<double>0,141603</double>
+<double>0,606969</double>
+</vector>
+<vector>
+<double>0,016301</double>
+<double>0,242887</double>
+<double>0,137232</double>
+<double>0,804177</double>
+<double>0,156679</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_2_for_the_1_convolutional_layer">
+<vector>
+<double>0,400944</double>
+<double>0,129790</double>
+<double>0,108809</double>
+<double>0,998925</double>
+<double>0,218257</double>
+</vector>
+<vector>
+<double>0,512932</double>
+<double>0,839112</double>
+<double>0,612640</double>
+<double>0,296032</double>
+<double>0,637552</double>
+</vector>
+<vector>
+<double>0,524287</double>
+<double>0,493583</double>
+<double>0,972775</double>
+<double>0,292517</double>
+<double>0,771358</double>
+</vector>
+<vector>
+<double>0,526745</double>
+<double>0,769914</double>
+<double>0,400229</double>
+<double>0,891529</double>
+<double>0,283315</double>
+</vector>
+<vector>
+<double>0,352458</double>
+<double>0,807725</double>
+<double>0,919026</double>
+<double>0,069755</double>
+<double>0,949327</double>
+</vector>
+</matrix>
+<matrix class="vector" id="filter_kernel_3_for_the_1_convolutional_layer">
+<vector>
+<double>0,525995</double>
+<double>0,086056</double>
+<double>0,192214</double>
+<double>0,663227</double>
+<double>0,890233</double>
+</vector>
+<vector>
+<double>0,348893</double>
+<double>0,064171</double>
+<double>0,020023</double>
+<double>0,457702</double>
+<double>0,063096</double>
+</vector>
+<vector>
+<double>0,238280</double>
+<double>0,970634</double>
+<double>0,902208</double>
+<double>0,850920</double>
+<double>0,266666</double>
+</vector>
+<vector>
+<double>0,539760</double>
+<double>0,375207</double>
+<double>0,760249</double>
+<double>0,512535</double>
+<double>0,667724</double>
+</vector>
+<vector>
+<double>0,531606</double>
+<double>0,039280</double>
+<double>0,437638</double>
+<double>0,931835</double>
+<double>0,930810</double>
+</vector>
+</matrix>
+<matr

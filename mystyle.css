@@ -1,0 +1,29 @@
+
+#splash_screen,GtkWindow{
+    background-color: white;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#statusbar, GtkWidget{
+    background-color: rgba (200, 200, 200, 1);
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#info, GtkWindow{
+    color: #0000ff;
+    background-color: white;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#net_topology, GObject{
+    color: #000000;
+    background-color: rgba (255, 255, 0, 0.2);
+    border-width: 3px;
+    border-color: red;
+}

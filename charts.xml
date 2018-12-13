@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<interface>
+    <!-- Chart Plotter 1 -->
+    <object class="GtkWindow" id="chart-plotter-1">
+    <property name="title">Chart Plotter 1</property>
+    <property name="default-width">800</property>
+    <property name="default-height">600</property>
+    <child>
+        <object class="GtkScrolledWindow" id="scrolled-chart-plotter-1">
+        <property name="visible">TRUE</property>
+        <property name="hscrollbar-policy">GTK_POLICY_ALWAYS</property>
+        <property name="vscrollbar-policy">GTK_POLICY_AUTOMATIC</property>
+        <property name="vexpand">TRUE</property>
+        <property name="hexpand">TRUE</property>
+        <child>
+            <object id="grid-1" class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="resize-mode">GTK_RESIZE_PARENT</property>
+            <property name="row-homogeneous">TRUE</property>
+            <child>
+                <object class="GtkLabel" id="label-1">
+                <property name="label">first label</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-1-1">
+                <property name="label">first value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">3</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-2">
+                <property name="label">second label</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">5</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-2-1">
+                <property name="label">second value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">7</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-3">
+                <property name="label">third label</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">9</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-3-1">
+                <property name="label">third value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">11</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-5">
+                <property name="label">fourth label</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">13</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-5-1">
+                <property name="label">forth value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">15</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object id="drawing-area" class="GtkDrawingArea">
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">2</property>
+                    <property name="top-attach">2</property>
+                    <property name="width">14</property>
+                    <property name="height">10</property>
+                </packing>
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-4">
+                <property name="label">Error:</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">13</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-4-1">
+                <property name="label">error value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">3</property>
+                    <property name="top-attach">13</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+             <child>
+                <object class="GtkLabel" id="label-6">
+                <property name="label">label-6 text</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">14</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+            <child>
+                <object class="GtkLabel" id="label-6-1">
+                <property name="label">label-6-1 value</property>
+                <property name="xalign">0</property>
+                <property name="hexpand">TRUE</property>
+                <property name="visible">True</property>
+                </object>
+                <packing>
+                    <property name="left-attach">3</property>
+                    <property name="top-attach">14</property>
+                    <property name="width">2</property>
+                </packing>                    
+            </child>
+           <child>
+                <object id="button2" class="GtkButton">
+                <property name="visible">True</property>
+                <property name="label">refresh</property>
+                </object>
+                <packing>
+                    <property name="left-attach">11</property>
+                    <property name="top-attach">14</property>
+                    <property name="width">2</property>
+                    <property name="height">1</property>
+                </packing>
+            </child>
+            <child>
+                <object id="quit" class="GtkButton">
+                <property name="visible">True</property>
+                <property name="label">Quit</property>
+                </object>
+                <packing>
+                    <property name="left-attach">13</property>
+                    <property name="top-attach">14</property>
+                    <property name="width">2</property>
+                    <property name="height">1</property>
+                </packing>
+            </child>
+            </object>
+        </child>
+        </object>
+    </child>
+    </object>
+</interface>
